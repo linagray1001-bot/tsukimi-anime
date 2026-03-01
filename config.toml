@@ -1,0 +1,15 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Tsukimi Anime"
+paginate = 10
+enableRobotsTXT = true
+[params]
+  description = "Moon-viewing anime reviews"
+  author = "Tsukimi Anime Team"
+[outputs]
+  home = ["HTML", "RSS"]
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+[markup.goldmark.renderer]
+  unsafe = true
